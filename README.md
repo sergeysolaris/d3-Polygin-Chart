@@ -1,4 +1,4 @@
-d3-Polygin-Chart
+d3-Polygon-Chart
 ================
 
 Polygon like chart based on d3.js
