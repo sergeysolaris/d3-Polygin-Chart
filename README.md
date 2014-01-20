@@ -9,44 +9,43 @@ Usage example
 <code>
 var expData1 = [{"label" : "HTML"}, {"label" : "CSS"}, {"label" : "C#"}, {"label" : ".NET"}, {"label" : "JS"}];
 </code>
-<code>
-var experience1 = new polygonChart(
-			{
-				data : expData1,
 
-				centerText : "MY|FIRST|JOB",
+var experience1 = new polygonChart({
 
-				fontSize : "25px",
+		data : expData1,
+		
+		centerText : "MY|FIRST|JOB",
+		
+		fontSize : "25px",
+		
+		canvasEl : "#canvas1",
+		
+		canva : { 
+			width : 600,
+			height: 600
+		},
+		
+		poly : {
+			fill: "#fff",
+			stroke: "#bbb",
+			strokeWidth : 2
+		},
 
-				canvasEl : "#canvas1",
+		radius : {
+			inner : 150,
+			outer : 250
+		},
 
-				canva : { 
-					width : 600,
-					height: 600
-				},
+		circle : {
+			radius : 50,
+			fill : "#ddd",
+			stroke : "#bbb"
+		},
 
-				poly : {
-					fill: "#fff",
-					stroke: "#bbb",
-					strokeWidth : 2
-				},
-
-				radius : {
-					inner : 150,
-					outer : 250
-				},
-
-				circle : {
-					radius : 50,
-					fill : "#ddd",
-					stroke : "#bbb"
-				},
-
-				font : {
-					fill : "#fff",
-					stroke : "#fff"
-				}
-			});
-			
-			experience1.draw();
-</code>
+		font : {
+			fill : "#fff",
+			stroke : "#fff"
+		}
+	});
+	
+	experience1.draw();
