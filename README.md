@@ -8,7 +8,6 @@ Usage example
 
 <code>
 var expData1 = [{"label" : "HTML"}, {"label" : "CSS"}, {"label" : "C#"}, {"label" : ".NET"}, {"label" : "JS"}];
-
 var experience1 = new polygonChart(
 			{
 				data : expData1,
